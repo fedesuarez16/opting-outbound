@@ -21,7 +21,7 @@ J --> K[Perfil del Lead]
 K --> L[Enriquecimiento Automático<br/>IA analiza conversación]
 K --> M[Enriquecimiento Manual<br/>Notas / Tags / Score]
 
-K --> N[Proceso de Seguimiento]
+K --> N[Proceso de Seguimiento automatico por la IA]
 
 N --> O{¿Dentro de ventana 24 hs?}
 
@@ -40,7 +40,7 @@ S --> J
 O -- No --> T[Esperar nuevo contacto<br/>o reiniciar outbound]
 
 J --> U[CRM genera tareas diarias]
-U --> V[Vendedor ejecuta tareas<br/>Llamadas / Mensajes]
+U --> V[Vendedor ejecuta tareas<br/>Llamadas / Mensajes de opt-in]
 
 L --> W[IA agenda llamada]
 W --> X[Notificación al vendedor]
